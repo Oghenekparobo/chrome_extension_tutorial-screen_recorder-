@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.content {
+    padding: 10px;
+    min-width: 300px;
+}
+
+.button_cont button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: teal;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.button_cont button:hover {
+    box-shadow: 1px 0px 10p #eee;
+}
+
+.test {
+    position: absolute;
+    font-size: 2rem;
+    top: 20rem;
+    right: 50rem;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
